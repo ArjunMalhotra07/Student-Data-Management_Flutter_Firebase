@@ -51,6 +51,8 @@ class _MyHomePageState extends State<MyHomePage> {
                         var college = data['College'];
                         var branch = data['Branch'];
                         var id = data['Id'];
+                        print(name);
+                        print("**");
 
                         return SizedBox(
                           child: Padding(
